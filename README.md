@@ -3,7 +3,7 @@ Délestage fil pilote
 
 L'objectif de ce petit montage est de délester mon chauffage électrique (via ses fils pilote):
 - en période HPJR (heure pleine jour rouge)
-- en période JPJW (heure pleine jour blanc) avec possibilité d'annuler le délestage
+- en période HPJW (heure pleine jour blanc) avec possibilité d'annuler le délestage
 - en cas de surconsommation
 
 L'arduino est connecté à la sortie TIC (télé-information client) du compteur Linky.
@@ -26,4 +26,4 @@ Ce délestage intervient dès que la consommation électrique instantanée attei
 
 Lorsque le délestage est activé, il dure au minimum 4mn (pour tenir compte de l'aspect intermittent de la consommation électrique d'un four ou d'une plaque électrique)
 
-Le fichier config.h définit les parmètres dont les valeurs peuvent être ajustés.
+Le fichier config.h définit les paramètres dont les valeurs peuvent être ajustées.
